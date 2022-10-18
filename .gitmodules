@@ -1,0 +1,11 @@
+[submodule "syzkaller"]
+	path = syzkaller
+	url = git@github.com:google/syzkaller.git
+	branch = master
+[submodule "executor/libsclog"]
+	path = executor/libsclog
+	url = git@github.com:liucy1998/libsclog.git
+[submodule "testsuite/kernel-memory-acccess-tracing"]
+	path = testsuite/kernel-memory-acccess-tracing
+	url = git@github.com:rssys/kernel-memory-acccess-tracing.git
+	branch = master

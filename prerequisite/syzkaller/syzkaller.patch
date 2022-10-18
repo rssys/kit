@@ -1,0 +1,15 @@
+diff --git a/prog/prog.go b/prog/prog.go
+index 068198ffe..29d816f97 100644
+--- a/prog/prog.go
++++ b/prog/prog.go
+@@ -416,6 +416,10 @@ func (p *Prog) removeCall(idx int) {
+ 	p.Calls = p.Calls[:len(p.Calls)-1]
+ }
+ 
++func (p *Prog) RemoveCall(idx int) {
++	p.removeCall(idx)
++}
++
+ func (p *Prog) sanitizeFix() {
+ 	if err := p.sanitize(true); err != nil {
+ 		panic(err)

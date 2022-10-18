@@ -1,0 +1,17 @@
+.vscode/
+
+bin/
+vendor/
+test/
+
+__pycache__/
+
+executor/*.h
+!executor/common.h
+!executor/common_linux.h
+!executor/executor_linux.h
+!executor/clone.h
+!executor/exec_sync.h
+executor/android
+
+prerequisite/go/*
