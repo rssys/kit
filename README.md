@@ -6,7 +6,7 @@ KIT is a dynamic testing framework that discovers functional interference bugs i
 
 ### Prerequisite
 
-**Hardware**: x86-64 CPU; >=128GB memory; >=128GB storage (bare-metal machine recommended);
+**Hardware**: x86-64 CPU (more cores are better); >=128GB memory; >=128GB storage (bare-metal machine recommended);
 
 **Software**: Linux systems with QEMU and KVM support (Ubuntu 22.04 recommended);
 
